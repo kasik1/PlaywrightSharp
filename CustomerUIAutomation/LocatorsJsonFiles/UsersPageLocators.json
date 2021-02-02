@@ -1,0 +1,68 @@
+{
+ "DeleteUser": {
+    "xpath": "//button[contains(text(),'Delete User')]"
+  },
+  "AddUser": {
+    "xpath": "//button[contains(text(),'Add User')]"
+  },
+  "AddUserModalPopup": {
+    "xpath": "//div[@class='cap-modal modal modal--default']/div[@class='modal-dialog modal-sm']"
+  },
+  "FirstName": {
+    "xpath": "//input[@id='firstName']"
+  },
+  "LastName": {
+    "xpath": "//input[@id='lastName']"
+
+  },
+  "Email": {
+    "xpath": "//input[@id='emailAddress']"
+
+  },
+  "save": {
+    "xpath": "/html/body/cap-modal[1]/div[1]/div/div/div[3]/div/div/cap-button[2]/button"
+  },
+  "FilterSearch": {
+    "xpath": "//input[@type='text'][@class='InpuntIconLeft']"
+    //"xpath": "/html/body/app-root/app-full-layout/div/div[1]/cap-shared-assign-roles-to-users/div/div[1]/cap-shared-users-header/cap-header/div/header/div[2]/div/div/div[1]/cap-input/div/input"
+  },
+  "NoRoleforNewUserAdded": {
+    "xpath": "//label[contains(text(),'No Roles Found')]"
+  },
+  "EditAssignments": {
+    "xpath": "//button[contains(text(),'Edit Assignments')]"
+  },
+  "Roletaskandresourcevalidation": {
+    "xpath": "//span[contains(text(),'Create and delete new roles, edit features/resources, and add/remove members')] "
+  },
+  "SelectRbacAdmin": {
+    "xpath": "//cap-collection-variable-name[contains(text(),'RbacAdmin')]/../../cap-collection-selectable/input"
+  },
+  "FilterRoles": {
+    "xpath": "//input[@name='search-filter']"
+  },
+  "AssignedRolesSave": {
+
+    "xpath": "//cap-button[@class='ng-star-inserted']/button[contains(text(),'Save')]"
+  },
+  "DeleteConfirmation": {
+    "xpath": "//button[@class='cap-btn cap-btn-destructive cap-btn-sm cap-btn-icon-left']"
+  },
+  "AssignrolesInGridView" :{
+    "xpath": "//td[contains(text(),'gulrej.alam@conduent.com')]/following-sibling:: td[1]"
+  },
+  "Gridview": {
+    //"xpath": "//button[@class='cap-btn cap-btn-primary cap-btn-sm cap-btn-icon-only cap-btn-icon-left']"
+    "xpath": "/html/body/app-root/app-full-layout/div/div[1]/cap-shared-assign-roles-to-users/div/div[1]/cap-shared-users-header/cap-header/div/header/div[2]/div/div/div[2]/cap-button[1]/button"
+  },
+  "EditRolesinGridViewforUsers": {
+    "xpath": "//a[contains(text(),' Edit ')][1]"
+  },
+  "SelectUser": {
+    "xpath": "//td[contains(text(),'Automation, Testing')]/../../../../../../div/div/table/tbody/tr[1]/td/input"
+  },
+  "AssignedRolesSaveGridView": {
+    "xpath": "//div/cap-shared-users-grid/cap-panel//div/cap-button[2]/button"
+  }
+
+  }

@@ -1,0 +1,77 @@
+{
+  "AddressInput": {
+    "xpath": "//tbody[@role='presentation']//tr[1][@role='row']/td[4]//input"
+  },
+  "AlertMessage": {
+    "xpath": "//div[@class='modal-content']//p"
+  },
+  "AttachmentsTab": {
+    "xpath": "//li[@class='nav-item']//a[contains(text(),'Attachments')]"
+  },
+  "BackToResults": {
+    "xpath": "//button[contains(text(),'Back To Results')]"
+  },
+  "CancelReprocess": {
+    "xpath": "//div[@class='modal-content']//button[contains(text(),'Cancel')]"
+  },
+  "ChangeStatus": {
+    "xpath": "//header//span[@class='checkmark']"
+  },
+  "EditField": {
+    "xpath": "//span[contains(text(),'Edit Mode')]"
+  },
+  "EditStatus": {
+    "xpath": "//header//input[@type='checkbox']"
+  },
+  "Export": {
+    "xpath": "//button[contains(text(),'Export')]"
+  },
+  "KendoGrid": {
+    "xpath": "//div[@class='k-indicator-container']"
+  },
+  "Reprocess": {
+    "xpath": "//button[contains(text(),'Reprocess')]"
+  },
+  "ReprocessInAlert": {
+    "xpath": "//div[@class='modal-footer']//button[contains(text(),'Reprocess')]"
+  },
+  "ReprocessInStep": {
+    "xpath": "//cap-button-dropdown//cap-dropdown-menu-item/a"
+  },
+  "ReprocessOptions": {
+    "xpath": "//cap-button-dropdown//span[@class='iconBtn']"
+  },
+  "ReprocessTypesList": {
+    "xpath": "//cap-button-dropdown//cap-dropdown-menu-item/a"
+  },
+  "Search": {
+    "xpath": "//button[contains(text(),'Search')]"
+  },
+  "SuccessMessage": {
+    "xpath": "//cap-toaster-notification//p"
+  },
+  "VariablesTab": {
+    "xpath": "//li[@class='nav-item']//a[contains(text(),'Variables')]"
+  },
+  "VoidedScreenDescription": {
+    "xpath": "//header//p"
+  },
+  "VoidedScreenHeader": {
+    "xpath": "//header//h2"
+  },
+  "WorkitemCheckbox": {
+    "xpath": "//tbody/tr[1]/td[1][@aria-colindex='1']"
+  },
+  "WorkitemDetailsDesc": {
+    "xpath": "//header//h2/following-sibling::p"
+  },
+  "WorkitemHeader": {
+    "xpath": "//header//h2"
+  },
+  "WorkitemName": {
+    "xpath": "//tbody/tr[1]/td[1][@aria-colindex='2']"
+  },
+  "AlertComments": {
+    "xpath": "//div[@class='modal-content']//textarea"
+  }
+}

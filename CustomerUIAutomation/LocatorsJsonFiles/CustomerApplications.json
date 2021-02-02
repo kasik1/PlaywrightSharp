@@ -1,0 +1,24 @@
+{
+  "NoOfAppsFound": {
+    "xpath": "//h2[contains(text(),'Apps')]/following-sibling :: p"
+  },
+  "AppsCount": {
+    "xpath": "//div[@class='customer-apps']/cap-card"
+  },
+
+  "CloseIcon": {
+    "xpath": "//div/lib-navigation/cap-navigation-header/nav/div/div[1]"
+  },
+  "OCRAPPFav": {
+    "xpath": "//cap-card-variable-name[contains(text(),'CashReport')]/..//cap-icon"
+  },
+  "BaselineApps": {
+    "xpath": "//cap-button[@iconname='baseline-apps']"
+  },
+  "NoFavAppsValidation": {
+    "xpath": "//div[@class='noFavoriteApps']/p"
+  },
+  "OCRAPPFavouritedApp": {
+    "xpath": "//div[contains(text(),'CashReport')]"
+  }
+}

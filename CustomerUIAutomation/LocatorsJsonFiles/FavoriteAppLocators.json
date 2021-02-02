@@ -1,0 +1,187 @@
+{
+  "Homepage": {
+    "xpath": "//body[@class='card-no-border']"
+  },
+  "FavouriteAppsLink": {
+    "xpath": "//a[@id='favoriteApps']"
+  },
+  "ViewAllApps": {
+    "xpath": "//button[contains(text(),'View All Apps')]"
+  },
+  "AllCardsView": {
+    "xpath": "//body[@class='row cards-row']"
+  },
+  "CreateStackFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'CreateStack')]/../preceding-sibling :: div/div/following-sibling :: img"
+
+  },
+  "CashReportFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'CashReport')]/../preceding-sibling :: div/div/following-sibling :: img"
+
+  },
+  "CopyAttachDataFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../preceding-sibling :: div/div/following-sibling :: img"
+  },
+  "CreateActionFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'CreateAction')]/../preceding-sibling :: div/div/following-sibling :: img"
+  },
+  "FaxWatcherFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'FaxWatcher')]/../preceding-sibling :: div/div/following-sibling :: img"
+  },
+  "FTPIntakeFavoriteInViewAllDashboard": {
+    "xpath": "//a[contains(text(),'FTPIntake')]/../preceding-sibling :: div/div/following-sibling :: img"
+  },
+  "AllAppsDsiplayed": {
+
+    "xpath": "//div[@class='row cards-row']"
+  },
+  "DasboardIcon": {
+    "xpath": "//aside[2]//span[contains(text(),' DASHBOARD')]/../img"
+  },
+  "FavouritedAppsDashBoard": {
+    "xpath": "//div[@class='content']/div[@class='favoriteApps-wrapper']"
+  },
+  "CopyAttchDatathreedotinwrapper": {
+    "xpath": "//p[contains(text(),' CopyAttchData')]/parent :: a/following-sibling :: div"
+  },
+  "CreateActionthreedotinwrapper": {
+    "xpath": "//p[contains(text(),' CreateAction ')]/parent :: a/following-sibling :: div"
+  },
+  "CreateStackthreedotinwrapper": {
+    "xpath": "//p[contains(text(),' CreateStack ')]/parent :: a/following-sibling :: div"
+  },
+  "FaxWatcherthreedotinwrapper": {
+    "xpath": "//p[contains(text(),' FaxWatcher ')]/parent :: a/following-sibling :: div"
+  },
+  "FTPIntakethreedotinwrapper": {
+    "xpath": "//p[contains(text(),' FTPIntake ')]/parent :: a/following-sibling :: div"
+  },
+  "RemoveFavourite": {
+    "xpath": "//a[contains(text(),'Remove Favourite')]"
+  },
+  "Removedappsvalidation": {
+    "xpath": "//div[@class='noFavoriteApps']/p"
+  },
+  "ErrorMessageForMorethanFiveApps": {
+    "xpath": "//p[contains(text(),'You can not add more than 5 Apps in Favorite list, Please Modify...')]"
+  },
+  "CashReportAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'CashReport')]/../../div/div/img"
+  },
+  "CreateStackAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'CreateStack')]/../../div/div/img"
+  },
+  "CopyAttachAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../../div/div/img"
+  },
+  "CreateActionAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'CreateAction')]/../../div/div/img"
+  },
+  "FaxWatcherAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'FaxWatcher')]/../../div/div/img"
+  },
+  "FTPIntakeAddFavThroughThreeDotOption": {
+    "xpath": "//a[contains(text(),'FTPIntake')]/../../div/div/img"
+  },
+  "CashReportAddFavTab": {
+    "xpath": "//a[contains(text(),'CashReport')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "CreateStackAddFavTab": {
+    "xpath": "//a[contains(text(),'CreateStack')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "CopyAttachAddFavTab": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "CreateActionAddFavTab": {
+    "xpath": "//a[contains(text(),'CreateAction')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "FaxWatcherAddFavTab": {
+    "xpath": "//a[contains(text(),'FaxWatcher')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "FTPIntakeAddFavTab": {
+    "xpath": "//a[contains(text(),'FTPIntake')]/../../div/div/img/../ul/li/a[contains(text(),'Add Favourite')]"
+  },
+  "ValidateCopyAttachFavAppsFromFavTab": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//a/p[contains(text(),'CopyAttchData')]"
+  },
+  "ValidateCreteActionFavAppFromFavTab": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//a/p[contains(text(),'CreateAction')]"
+  },
+  "ValidateCreateStackFavAppFromFavTab": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//a/p[contains(text(),'CreateStack')]"
+  },
+  "ValidateFaxWatcherFavAppFromFavTab": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//a/p[contains(text(),'FaxWatcher')]"
+  },
+  "ValidateFtpIntake": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//a/p[contains(text(),'FTPIntake')]"
+  },
+  "ValidateViewAllApps": {
+    "xpath": "/html/body/app-root/app-full/div/div/div/app-dashboard/div[2]/div[2]/div/div/div[6]/div/button"
+  },
+  "ValidateViewAllAppsFromFavTab": {
+    "xpath": "//div[@class='favoriteApps dropdown-menu dropdown-menu-right show']//button[contains(text(),' View All Apps ')]"
+  },
+  "ValidateCopyAttachFavAppsFromAppDashboard": {
+    "xpath": "//app-dashboard//a/p[contains(text(),'CopyAttchData')]"
+  },
+  "ValidateCreteActionFavAppFromAppDashboard": {
+    "xpath": "//app-dashboard//a/p[contains(text(),'CreateAction')]"
+  },
+  "ValidateCreateStackFavAppFromAppDashboard": {
+    "xpath": "//app-dashboard//a/p[contains(text(),'CreateStack')]"
+  },
+  "ValidateFaxWatcherFavAppFromAppDashboard": {
+    "xpath": "//app-dashboard//a/p[contains(text(),'FaxWatcher')]"
+  },
+  "ValidateFtpIntakeFromAppDashboard": {
+    "xpath": "//app-dashboard//a/p[contains(text(),'FTPIntake')]"
+  },
+  "ValidateViewAllAppsFromAppDashboard": {
+    "xpath": "//button[contains(text(),' View All Apps ')]"
+  },
+  "CopyAttchDataRemoveFavAppsoption": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../..//li/following-sibling :: li/a"
+  },
+  "FTPIntakeRemoveFavAppsoption": {
+    "xpath": "//a[contains(text(),'FTPIntake')]/../..//li/following-sibling :: li/a"
+  },
+  "CreateActionRemoveFavAppsoption": {
+    "xpath": "//a[contains(text(),'CreateAction')]/../..//li/following-sibling :: li/a"
+  },
+  "FaxWatcherRemoveFavAppsoption": {
+    "xpath": "//a[contains(text(),'FaxWatcher')]/../..//li/following-sibling :: li/a"
+  },
+  "CreateStackRemoveFavAppsoption": {
+    "xpath": "//a[contains(text(),'CreateStack')]/../..//li/following-sibling :: li/a"
+  },
+  "Elipsy": {
+    "xpath": "//div[@class='content']/div[@class='favoriteApps-wrapper']/div/div/div/img"
+  },
+  "RemovefavthroughElipsy": {
+    "xpath": "//div[@class='content']/div[@class='favoriteApps-wrapper']/div/div/div/ul//li/a[contains(text(),'Remove Favourite')]"
+  },
+  "AddedFavAppsValidation": {
+    "xpath": "//app-dashboard/div"
+  },
+  "AppCount": {
+    "xpath": "//cap-card"
+  },
+  "ClickLaunchCopyAttach": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../../div/div/img/../ul/li/a[contains(text(),'Launch')]"
+  },
+  "AppToolTip": {
+    "xpath": "//a[text()='CopyAttchData']/../..//div[@class='app-card']"
+  },
+  "ToolTipValidation": {
+    "xpath": "//ngb-tooltip-window[@role='tooltip']"
+  },
+  "AttchDataAppName": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]"
+  },
+  "AttchDataAppDescp": {
+    "xpath": "//a[contains(text(),'CopyAttchData')]/../following-sibling::p"
+  }
+
+
+}

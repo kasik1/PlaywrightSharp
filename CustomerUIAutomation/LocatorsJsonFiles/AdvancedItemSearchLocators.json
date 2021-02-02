@@ -1,0 +1,116 @@
+{
+  "SearchHeader": {
+    "xpath": "//header//h2"
+  },
+  "SearchDescription": {
+    "xpath": "//header//p"
+  },
+  "CurrentSearch": {
+    "xpath": "//a[contains(text(),'Current Search')]"
+  },
+  "SavedSearch": {
+    "xpath": "//a[contains(text(),'Saved Search')]"
+  },
+  "WorkitemRadio": {
+    "xpath": "//input[@id='WorkItem']/parent::label/span"
+  },
+  "WorkitemAttachmentRadio": {
+    "xpath": "//input[@id='workItemWithAttachment']/parent::label/span"
+  },
+  "AttachmentRadio": {
+    "xpath": "//input[@id='Attachment']/parent::label/span"
+  },
+  "AddCriteria": {
+    "xpath": "//button[contains(text(),'Add Criteria')]"
+  },
+  "SelectColumnName": {
+    "xpath": "//td[@class='columnName']//input"
+  },
+  "SelectOperator": {
+    "xpath": "//cap-select[contains(@class,'select-operator')]"
+  },
+  "SelectOperatorArrow": {
+    "xpath": "//article[@*='selectOne']//div[@class='arrow']"
+  },
+  "EnterValue": {
+    "xpath": "//td[@class='criteria-multiselect']//input"
+  },
+  "WorkflowNameColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='Workflow Name']"
+  },
+  "WorkTypeColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='Work Type']"
+  },
+  "StepNameColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='Step Name']"
+  },
+  "StatusColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='Status']"
+  },
+  "SLATargetColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='SLA Target Date']"
+  },
+  "SLAStartColumn": {
+    "xpath": "//div[contains(@class,'draggableItem')]/span[text()='SLA Start Date']"
+  },
+  "WorkItemName": {
+    "xpath": "//div[contains(@class,'draggableItem')]//span[contains(text(),'Work Item Name')]"
+  },
+  "VisibleColumnsList": {
+    "xpath": "//h6[text()='Visible Columns']/parent::div//div[contains(@class,'draggableItem')]/span/span"
+  },
+  "SearchButton": {
+    "xpath": "//button[contains(text(),'Search')]"
+  },
+  "SearchResultsTitle": {
+    "xpath": "//div[contains(@class,'resultGrid')]//h2"
+  },
+  "SearchResultsColumn": {
+    "xpath": "//span[@title='Work Item Name']"
+  },
+  "ExportButton": {
+    "xpath": "//button[contains(text(),'Export')]"
+  },
+  "ClearButton": {
+    "xpath": "//button[contains(text(),'Clear')]"
+  },
+  "SaveSearchButton": {
+    "xpath": "//button[contains(text(),'Save this search')]"
+  },
+  "NoSavedSearchMsg": {
+    "xpath": "//div[@class='search-schema']/p"
+  },
+  "SearchName": {
+    "xpath": "//input[@formcontrolname='name']"
+  },
+  "SearchDesc": {
+    "xpath": "//textarea[@formcontrolname='description']"
+  },
+  "SavePopup": {
+    "xpath": "//div[@class='modal-content']//button[contains(text(),'Save')]"
+  },
+  "SavedTypeDropdown": {
+    "xpath": "//div[@class='toolbox']//article[@class='selectOne']"
+  },
+  "SavedSearchHeader": {
+    "xpath": "//div[@class='search-schema']//h5"
+  },
+  "SavedSearchElipse": {
+    "xpath": "//cap-collection-options//span"
+  },
+  "SavedSearchOptions": {
+    "xpath": "//ul[@class='dropdown-menu show']//span"
+  },
+  "SavedSearchName": {
+    "xpath": "//span[@class='searchTypeName']"
+  },
+  "SavedSearchDescription": {
+    "xpath": "//cap-collection-variable-description"
+  },
+  "SavedSearchCreateDate": {
+    "xpath": "//label[contains(text(),'Create Date ')]/following-sibling::label"
+  }
+
+
+
+}

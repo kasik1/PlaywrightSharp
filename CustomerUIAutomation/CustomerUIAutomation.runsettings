@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RunSettings>  
+  <!-- Configurations that affect the Test Framework -->  
+  <RunConfiguration>  
+    <MaxCpuCount>2</MaxCpuCount>
+    <ResultsDirectory>..\TestResults</ResultsDirectory>  
+  </RunConfiguration>  
+  
+  <!-- Parameters used by tests at run time -->
+  <TestRunParameters>
+    <Parameter name="webAppUrl" value="https://customer-ui-hub-dummy-app-qa.conduent-cap.com/login" />
+  </TestRunParameters>
+    
+  <!-- Adapter Specific sections -->  
+  
+  <!-- MSTest adapter -->  
+  <MSTest>  
+    <MapInconclusiveToFailed>True</MapInconclusiveToFailed>  
+    <CaptureTraceOutput>True</CaptureTraceOutput>  
+    <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>  
+    <DeploymentEnabled>True</DeploymentEnabled>  
+  </MSTest>  
+</RunSettings>

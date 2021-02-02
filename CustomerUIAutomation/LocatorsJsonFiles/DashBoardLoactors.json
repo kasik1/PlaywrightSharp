@@ -1,0 +1,17 @@
+{
+  "Reports": {
+    //"xpath": "//div[@class='visualContainerHost']",
+    //"xpath": "//div[@data-automation-type='visualContainerHost']"
+    "xpath": "/html/body/div[2]/root/div/div/div[1]/div/div/div/exploration-container/exploration-container-modern/div/div/div/exploration-host/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]"
+  },
+  "ViewAllApps": {
+    "xpath": " //cap-card-variable-name[contains(text(),'View All Apps')]"
+  },
+  "NoOfAppsFound": {
+    "xpath": "//h2[contains(text(),'Apps')]/following-sibling :: p"
+  },
+  "AppsCount": {
+    "xpath": "//div[@class='customer-apps']/cap-card"
+  }
+
+}
