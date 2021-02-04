@@ -1,0 +1,37 @@
+{
+  "AddRole": {
+    "xpath": "//button[contains(text(),' Add New Role ')]"
+  },
+  "EditIconRoleName": {
+    "xpath": "//div[contains(text(),' Untitled Role')]/../child :: cap-icon"
+  },
+  "EditIconRoleDescription": {
+    "xpath": "//div[contains(text(),' Enter Description Here')]/../child :: cap-icon"
+  },
+  "RoleNameTextInput": {
+    "xpath": "//cap-input[@id='rolename']/div/input"
+  },
+  "RoleDescriptionInput": {
+    "xpath": "//cap-input[@id='roledescription']/div/input"
+  },
+  "TaskSelection": {
+    "xpath": "//span[contains(text(),'Create and delete new roles, edit features/resources, and add/remove members ')]/preceding-sibling :: kendo-checkbox/input"
+  },
+  "Save": {
+    "xpath": "/html/body/app-root/app-full-layout/div/div[1]/cap-shared-assign-permissions-to-roles/div/div[2]/div/cap-shared-role-list/div/div/div[2]/cap-shared-role-tasks-resources/div[1]/div[2]/cap-button[2]/button"
+  },
+  "DeleteRole": {
+    "xpath": "//button[contains(text(),'Delete Role')]"
+  },
+  "FilterSearch": {
+    "xpath": "//input[@placeholder='Search']"
+  },
+  "DeleteConfirmation": {
+    "xpath": "//cap-modal[2]//div/div/cap-button[2]/button"
+  },
+
+  "SelectedTaskValidation": {
+    "xpath": "//span[contains(text(),'Create and delete new roles, edit features/resources, and add/remove members')]"
+  }
+
+}

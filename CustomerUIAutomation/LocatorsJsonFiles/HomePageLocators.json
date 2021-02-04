@@ -1,0 +1,173 @@
+{
+  "UserIcon": {
+    "xpath": "//span[@class='user-avatar']"
+  },
+  "EditProfile": {
+    "xpath": "//span[text()='Edit your Account Settings']"
+  },
+  "AvatarIconInDropdown": {
+    "xpath": "//div[contains(@class,'dropdown')]/img[contains(@src,'avatar')]"
+  },
+  "ProfileNameInDropdown": {
+    "xpath": "//div[contains(@class,'profile-name')]"
+  },
+  "EmailInDropdown": {
+    "xpath": "//div[@class='profile-email text-truncate']"
+  },
+  "LanguageInDropdown": {
+    "xpath": "//span[text()='Languages']"
+  },
+  "ThemeInDropdown": {
+    "xpath": "//span[text()='Theme']"
+  },
+  "DefaultLanguage": {
+    "xpath": "//span[text()='Languages']/following-sibling::span"
+  },
+  "DefaultTheme": {
+    "xpath": "//span[text()='Theme']/following-sibling::span"
+  },
+
+  "UploadPic": {
+    "xpath": "//span[contains(@class,'icon uploadFile')]"
+  },
+  "UpdateUserName": {
+    "xpath": "//input[@id='name']"
+  },
+  "EmailId": {
+    "xpath": "//input[@id='email']"
+  },
+  "UpdateLanguage": {
+    "xpath": "//select[@id='language']"
+  },
+  "ApplyAvatar": {
+    "xpath": "//button[contains(text(),'Apply')]"
+  },
+  "SaveButton": {
+    "xpath": "//button[contains(text(),'Save')]"
+  },
+  "MessageNotification": {
+    "xpath": "//p[@class='notifier__notification-message']"
+  },
+  "InvalidFormatAvatar": {
+    "xpath": "//div[contains(@class,'invalid-input')]"
+  },
+  "UserSettingsIcon": {
+    "xpath": "//img[@alt='profile-badge']"
+  },
+  "settingsModelPopup": {
+    "xpath": "//div[@class='modal-content']/app-user-profile-settings"
+  },
+  "SettingsModelCancel": {
+    "xpath": "//button[contains(text(),'Cancel')]"
+  },
+  "EditYourSettingsFeild": {
+    "xpath": "//span[contains(text(),'Edit your Account Settings')]"
+  },
+  "languages": {
+    "xpath": "//span[contains(text(),'Languages')]"
+  },
+  "Theme": {
+    "xpath": "//span[contains(text(),'Theme')]"
+  },
+  "ProfileIcon": {
+    "xpath": "//div[@class='notification-list profile-pic']/img"
+  },
+  "UploadORChangePicture": {
+    "xpath": "//span[contains(text(),'Upload New Picture')] | //span[contains(text(),'Change Picture')]"
+  },
+  "UserName": {
+    "xpath": "//input[@id='name']"
+  },
+  "Email": {
+    "xpath": "//input[@id='email']"
+  },
+  "DatePicker": {
+    "xpath": "//span[@class='k-select']"
+  },
+  "LanguageDropdown": {
+    "xpath": "//select[@class='form-control ng-untouched ng-pristine ng-valid']"
+  },
+
+  "DatePickerclick": {
+    "xpath": "//span[@class='k-icon k-i-calendar']"
+  },
+  "DatePickerDate": {
+    "xpath": "//span[contains(text(),'18')] "
+  },
+  "DatePickerMonth": {
+    "xpath": "//span[contains(text(),'Mar')]"
+  },
+  "DatePickerYear": {
+    "xpath": "//span[contains(text(),'2020')]"
+  },
+  "UpdatedProfileName": {
+    "xpath": "//div[@class='profile-name text-capitalize text-truncate']"
+  },
+  "EmailIDValidation": {
+    "xpath": "//div[@class='profile-email text-truncate']"
+  },
+  "LanguageValidation": {
+    "xpath": "//span[@class='profile-item-right-content text-capitalize']"
+  },
+  "DropdownTextSelection": {
+    "xpath": "//select[@class='form-control ng-pristine ng-valid ng-touched']"
+  },
+  "ThemeSelection": {
+    "xpath": "//label[@class='custom-control-label lightTheme']"
+  },
+  "ThemeValidationLight": {
+    "xpath": "//span[@class='profile-item-right-content text-capitalize'][contains(text(),'Light')]"
+  },
+  "Logout": {
+    "xpath": "//span[contains(text(),'Logout')]"
+  },
+  "CloseSettings": {
+    "xpath": "//button[@class='close']"
+  },
+  "UserProfileLoader": {
+    "xpath": "//nav//div[@class='k-i-loading']"
+  },
+  "WrapperLoader": {
+    "xpath": "//app-customer-applications//div[@class='k-i-loading']"
+  },
+
+  "HamburgerMenu": {
+    "xpath": "//div[@class='menu-btn__burger']"
+  },
+  "UsersMenu": {
+    "xpath": "//span[contains(text(),'Users')]"
+  },
+  "RolesMenu": {
+    "xpath": "//span[contains(text(),'Roles')]"
+  },
+  "DashBoardMenu": {
+    "xpath": "//span[contains(text(),'Dashboard')]"
+  },
+  "CustomerApplicationsMenu": {
+    "xpath": "//span[contains(text(),'Customer Applications')]"
+  },
+  "ProductionControl": {
+    "xpath": "//span[contains(text(),'Production Control')]"
+  },
+  "QueueMonitorMenu": {
+    "xpath": "//span[contains(text(),'Production Control')]"
+  },
+  "WorkExceptionMenu": {
+    "xpath": "//span[contains(text(),'Work Exception')]"
+  },
+  "VoidedItemsMenu": {
+    "xpath": "//span[contains(text(),'Voided Items')]"
+  },
+  "SearchMenu": {
+    "xpath": "//span[contains(text(),'Search')]"
+  },
+  "ServiceBusMonitorMenu": {
+    "xpath": "//span[contains(text(),'Service Bus Monitor')]"
+  },
+  "ReportsMenu": {
+    "xpath": "//span[contains(text(),'Reports')]"
+  },
+  "CloseIcon": {
+    "xpath": "//div[@class='col-sm-']"
+  }
+}

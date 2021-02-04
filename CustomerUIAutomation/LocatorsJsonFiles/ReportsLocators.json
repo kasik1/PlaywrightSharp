@@ -1,0 +1,39 @@
+{
+  "GridView": {
+    "xpath": "//button[@class='cap-btn cap-btn-primary cap-btn-xs cap-btn-icon-only cap-btn-icon-left']"
+  },
+  "ListView": {
+    "xpath": "//button[@class='cap-btn cap-btn-neutral cap-btn-xs cap-btn-icon-only cap-btn-icon-left']"
+  },
+  "SearchFilter": {
+    "xpath": "//input[@placeholder='Filter']"
+  },
+  "ReportCards": {
+    "xpath": "//cap-card[1]"
+  },
+  "ViewButton": {
+    "xpath": "//header//div/cap-button/button[contains(text(),'View')]"
+  },
+  "BackToReportsButton": {
+    "xpath": "//header//div/cap-button/button[contains(text(),'Back To Reports')]"
+  },
+  "PreviousButton": {
+    "xpath": "//header//div/cap-button/button[contains(text(),'Previous')]"
+  },
+  "NextButton": {
+    "xpath": "//header//div/cap-button/button[contains(text(),'Next')]"
+  },
+  "CloseIcon": {
+    "xpath": "//div[@class='col-sm-']"
+  },
+  "ReportInListView": {
+    "xpath": "//tbody/tr[@role='presentation'][1]"
+  },
+  "CheckBoxForReport": {
+    "xpath": "//tbody/tr[1]/td/input"
+  },
+  "DetailedReport": {
+    "xpath": "//div[@class='displayArea disableAnimations fitToPage']"
+  }
+  
+}

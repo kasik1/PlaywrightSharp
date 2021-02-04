@@ -1,0 +1,19 @@
+{
+  "ServiceBusMonitor": {
+    "xpath": "//span[contains(text(),'Service Bus Monitor')]"
+  },
+  "FilterSearch": {
+    "xpath": "//app-service-bus-monitor/cap-header//input"
+  },
+  "Enable": {
+    "xpath": "//td[contains(text(),'mailroom')]/../td//span[@class='checkmarkCircle']"
+  },
+  "StatusValidate": {
+    "xpath": "//td[contains(text(),'mailroom')]/../td[contains(text(),'Enabled')][@id='k-grid0-r1c4']"
+    //"xpath": "//*[@id=\"k-grid0-r1c4\"]"
+  },
+  "Disable": {
+    "xpath": "//*[@id=\"k-grid0-r1c5\"]/div/cap-toggle/div/label/span[2]/span"
+  }
+
+}

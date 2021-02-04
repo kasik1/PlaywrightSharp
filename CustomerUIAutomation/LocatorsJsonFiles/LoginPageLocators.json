@@ -1,0 +1,27 @@
+{
+  "signInInputEmail": {
+    "xpath": "//input[@type='email']"
+  },
+  "signInPassword": {
+    "xpath": "//input[@type ='password']"
+  },
+
+  "LoginButton": {
+    "xpath": "//span[@class='auth0-label-submit']"
+  },
+  "signInButton": {
+    "xpath": "//span[@class='submit']"
+  },
+  "loginInSubmitButton": {
+    "xpath": "//span[contains(text(), 'Log In')]"
+  },
+  "LogOutDropDown": {
+    "xpath": "//iframe/parent::body/descendant::a[@id='dropdownBasic1']"
+  },
+  "LogOut": {
+    "xpath": "//a[contains(text(),'Sign Out')]"
+  },
+  "selectNo": {
+    "xpath": "//input[@value ='No']"
+  }
+}
